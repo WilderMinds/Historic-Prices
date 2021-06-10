@@ -116,7 +116,7 @@ class HomeViewModel @Inject constructor(
                 throw Exception("Product validation failed")
             }
         } catch (e: Exception) {
-            e.printStackTrace()
+            // e.printStackTrace()
             notifyError(
                 msg = e.message ?: "Something went wrong"
             )
