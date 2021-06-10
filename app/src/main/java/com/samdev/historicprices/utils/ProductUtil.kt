@@ -24,8 +24,4 @@ object ProductUtil {
 
         return true
     }
-
-    fun validateCreatePrice() : Boolean {
-        TODO("Yet to implement")
-    }
 }

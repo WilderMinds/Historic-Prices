@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">mPharma Price History</string>
     <string name="add_new_product">Add New Product</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
     <string name="update_price_instructions">Change current value to set new product price</string>
+    <string name="save">SAVE</string>
+    <string name="product_price">Latest Price</string>
+    <string name="product_name">Product Name</string>
 </resources>

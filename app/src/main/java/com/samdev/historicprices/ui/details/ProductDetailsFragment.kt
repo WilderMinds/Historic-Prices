@@ -37,14 +37,10 @@ class ProductDetailsFragment : Fragment() {
     private var productWithPrices: ProductWithPrices? = null
 
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentProductDetailsBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -122,7 +118,7 @@ class ProductDetailsFragment : Fragment() {
 
 
     /**
-     * Indicate resource laoding to user
+     * Indicate resource loading to user
      */
     private fun handleLoadingState(item: Any?) {
         item?.let {
